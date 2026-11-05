@@ -1,0 +1,9 @@
+{
+  "documents": [
+    {"id": "doc-a1", "tenant_id": "tenant-a", "source": "policy/retention.md"},
+    {"id": "doc-b1", "tenant_id": "tenant-b", "source": "policy/access.md"}
+  ],
+  "queries": [
+    {"id": "query-a", "tenant_id": "tenant-a", "retrieved_ids": ["doc-a1", "doc-b1"]}
+  ]
+}
